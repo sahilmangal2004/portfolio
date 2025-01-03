@@ -410,7 +410,7 @@ nav .fa-solid{
     }
 
     .header-text{
-        margin-top: 100%;
+        margin-top: 6%;
         font-size: 16px;
     }
     .header-text h1{
@@ -421,7 +421,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #ff8000;
         position: fixed;
         top: 0;
         right: -200px;
