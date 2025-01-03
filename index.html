@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e8bd23af2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer</p>
+                <h1>Hi, I'm <span>Sahil</span><br>Mangal from India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------------About Me--------------------- -->
+<div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Creative graphic designer with 1 year of experience turning ideas into impactful visuals. I specialize in branding, social media content, and marketing design, blending innovation with strategy to deliver designs that captivate and communicate. From crafting bold visual identities to designing scroll-stopping posters, I thrive on bringing concepts to life with precision and flair. With a keen eye for detail and a passion for storytelling, I’m dedicated to creating designs that not only look stunning but also resonate with audiences. Let’s create something unforgettable together!</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Adobe Photoshop</span><br>Designig Web/App interfaces</li>
+                            <li><span>Adobe Illustrator</span><br>Interactive Elements</li>
+                            <li><span>Canva</span><br>Web-Friendly Assets</li>
+                            <li><span>Web Development</span><br>Design Systems and Consistency</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2024 – June 2024</span><br>Wizmeet (Social Media Manager</li>
+                            <li><span>2023 - 2024</span><br>Technosearch'23 - Technical Event and Maffick'24 - Cultural Event (Designer Head)</li>
+                            <li><span>May 2022 - June 2022</span><br>Forethought India (Data Analysis Intern)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Present with CGPA : 6.55</span><br>Maulana Azad National Institute of Technology, Bhopal</li>
+                            <li><span>2021-2022 with Percentage : 83.0 in Class 12th</span><br>Greenwood Public School, Gwalior</li>
+                            <li><span>2019-2020 with Percentage : 85.6 in Class 10th</span><br>Greenwood Public School, Gwalior</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------services------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Crafting visually stunning and user-friendly web designs that combine creativity with functionality, ensuring a seamless and engaging digital experience across all devices.</p>
+                    <a href="https://sahilmangal2004.github.io/Gifify-Instant-GIF-Search-Share/">Uncover Details</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Delivering eye-catching and impactful graphic designs that elevate your brand, from logos to marketing materials, blending creativity with precision.</p>
+                    <a href="https://www.instagram.com/fuki.ndead/">Uncover Details</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>T-shirts Design</h2>
+                    <p>Crafting unique and trendy t-shirt designs that turn ideas into wearable art, tailored to make a bold statement.</p>
+                    <a href="https://www.instagram.com/manitian_tshirts/">Uncover Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------portfolio--------------------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</div>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/graphic.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Social Media Posts</h3>
+                            <p>Crafting scroll-stopping social media posts that captivate audiences, boost engagement, and reflect your brand's unique personality.</p>
+                            <a href="https://www.instagram.com/fuki.ndead/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tshirt.jpg" alt="">
+                        <div class="layer">
+                            <h3>T-shirts Designs</h3>
+                            <p>Transforming ideas into standout t-shirt designs that blend creativity, style, and individuality to make every piece uniquely yours.</p>
+                            <a href="https://www.instagram.com/manitian_tshirts/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/forethought.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Branding post</h3>
+                            <p>Crafting compelling company posts that showcase your brand's identity, engage your audience, and leave a lasting impression.</p>
+                            <a href="https://www.instagram.com/fuki.ndead/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/fuki.ndead/" class="btn">See more</a>
+        </div>
+      </div>
+
+      <!-- --------------------------------conatact------------------------- -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sahilmangal2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9179778510</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.behance.net/sahilmangal4"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://github.com/sahilmangal2004"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sahil-mangal-05752b257/"><i class="fa-brands fa-linkedin"></i></a>
+                      </div>                      
+                    <a href="images/my-cv.pdf" Download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Sahil Mangal. All Rights Reserved.</p>
+        </div>
+       </div>
+
+    <script>
+        var  tablinks = document.getElementsByClassName("tab-links");
+        var  tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby5gvQewhBNBgqNo5iH4w0Wn6qYMT9ZUMmPPF9io3HTTv2YdN_yc6HZ9nBp3IuTDd_X/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault(); // Prevent form from reloading the page
+        console.log("Form submission started");
+        
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                console.log("Form submission successful", response);
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(() => {
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset(); // Reset form fields after submission
+            })
+            .catch(error => {
+                console.error('Error!', error.message);
+                msg.innerHTML = "Error sending message. Please try again.";
+            });
+    });
+</script>
+
+
+</div>
+</body>
+</html>
